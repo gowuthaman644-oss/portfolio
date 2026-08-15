@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gowuthaman - Full-Stack Developer & UI/UX Creator Portfolio</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Lenis Smooth Scroll -->
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+
+  <link rel="stylesheet" href="style.css?v=14" />
+</head>
+<body>
+
+  <!-- Smooth Canvas Animation Background -->
+  <div class="canvas-container">
+    <canvas id="hero-canvas"></canvas>
+  </div>
+
+  <!-- Minimal Preloader -->
+  <div id="loader" class="loader-overlay">
+    <div class="loader-content">
+      <div class="loader-text">GOWUTHAMAN</div>
+      <div class="loader-bar-container">
+        <div id="loader-bar" class="loader-bar"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content Overlay -->
+  <div class="content-wrapper">
+
+    <!-- Top Navigation Header -->
+    <header class="top-nav">
+      <div class="nav-brand">
+        <span class="brand-name">GOWUTHAMAN</span>
+        <span class="divider">|</span>
+        <span>FULL-STACK DEVELOPER & UI/UX CREATOR</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-status">
+        <span class="status-dot"></span>
+        AVAILABLE FOR FREELANCE <span class="sparkle">✦</span>
+      </div>
+    </header>
+
+    <!-- SECTION 1: HERO HEADER -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-text">GOWUTHAMAN</div>
+      
+      <div class="hero-container">
+        <!-- Left Hero Column -->
+        <div class="hero-main">
+          <span class="script-greeting">Hello, I'm</span>
+          <h1 class="hero-name">GOWUTHAMAN</h1>
+          <h2 class="hero-role">FULL-STACK DEVELOPER & UI/UX CREATOR</h2>
+          <p class="hero-bio">
+            I design and build stylish, high-performance web applications that combine creativity with strategy. Passionate about clean code, modern UI/UX, and building seamless digital solutions.
+          </p>
+          
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">GET IN TOUCH <i data-lucide="arrow-right"></i></a>
+            <div class="hero-worldwide">
+              <span class="globe-icon"><i data-lucide="map-pin"></i></span>
+              COIMBATORE, TAMIL NADU
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Column: Badges & Stats -->
+        <div class="hero-side">
+          <div class="badge-circle">
+            <div class="badge-icon"><i data-lucide="sparkles"></i></div>
+            <p>Turning ideas into powerful, scalable digital experiences.</p>
+          </div>
+
+          <div class="stats-list">
+            <div class="stat-item">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">YEARS<br>EXPERIENCE</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">40+</span>
+              <span class="stat-label">PROJECTS<br>COMPLETED</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">20+</span>
+              <span class="stat-label">HAPPY<br>CLIENTS</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">CLIENT<br>COMMITMENT</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: ABOUT ME -->
+    <section class="about-section" id="about">
+      <div class="section-badge">ABOUT ME</div>
+      <h2 class="section-heading-lg">Passionate Developer. Problem Solver. Tech Enthusiast.</h2>
+      
+      <div class="about-grid">
+        <div class="about-content-card">
+          <p class="about-lead">
+            Based in Coimbatore, Tamil Nadu, I'm a full-stack developer passionate about building fast, secure, and scalable web applications. From custom music streaming clones to complex task management systems, I craft digital products that make a difference.
+          </p>
+
+          <ul class="about-checklist">
+            <li><span class="check-icon"><i data-lucide="check-circle-2"></i></span> Clean, maintainable and efficient code</li>
+            <li><span class="check-icon"><i data-lucide="check-circle-2"></i></span> Strong focus on performance, responsiveness & UX</li>
+            <li><span class="check-icon"><i data-lucide="check-circle-2"></i></span> Agile, collaborative and detail-oriented workflow</li>
+          </ul>
+
+          <div class="about-action">
+            <a href="#contact" class="btn btn-secondary">MORE ABOUT ME <i data-lucide="arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="about-stats-grid">
+          <div class="stat-card">
+            <div class="stat-card-icon"><i data-lucide="clock"></i></div>
+            <div class="stat-card-val">5+</div>
+            <div class="stat-card-label">Years Experience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon"><i data-lucide="folder-check"></i></div>
+            <div class="stat-card-val">40+</div>
+            <div class="stat-card-label">Projects Completed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon"><i data-lucide="users"></i></div>
+            <div class="stat-card-val">20+</div>
+            <div class="stat-card-label">Happy Clients</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-card-icon"><i data-lucide="shield-check"></i></div>
+            <div class="stat-card-val">100%</div>
+            <div class="stat-card-label">Commitment Rate</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: SERVICES I PROVIDE -->
+    <section class="services-section" id="services">
+      <div class="section-center-header">
+        <div class="section-badge">WHAT I DO</div>
+        <h2 class="section-title-center">Services I Provide</h2>
+      </div>
+
+      <div class="services-grid services-grid-4">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div class="service-icon"><i data-lucide="monitor"></i></div>
+          <h3 class="service-title">Web Development</h3>
+          <p class="service-desc">Building responsive, fast, and scalable websites and web applications with modern architecture.</p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div class="service-icon"><i data-lucide="layout"></i></div>
+          <h3 class="service-title">Frontend Development</h3>
+          <p class="service-desc">Crafting pixel-perfect UIs using React, Next.js, Tailwind CSS, and modern frontend tools.</p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div class="service-icon"><i data-lucide="server"></i></div>
+          <h3 class="service-title">Backend Development</h3>
+          <p class="service-desc">Developing secure RESTful APIs and server-side logic using Node.js, Express, and databases.</p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div class="service-icon"><i data-lucide="database"></i></div>
+          <h3 class="service-title">Database & DevOps</h3>
+          <p class="service-desc">Designing databases with PostgreSQL/MongoDB and deploying applications on Docker & cloud platforms.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: SKILLS & TOP PROJECTS -->
+    <section class="skills-projects-section" id="skills">
+      <div class="skills-projects-grid">
+
+        <!-- Left Side: Technologies Progress Bars -->
+        <div class="skills-col">
+          <div class="section-badge">MY SKILLS</div>
+          <h2 class="section-heading-md">Technologies I Work With</h2>
+
+          <div class="skills-bars-list">
+            <!-- Skill 1 -->
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript / TypeScript</span>
+                <span class="skill-perc">90%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">React / Next.js</span>
+                <span class="skill-perc">90%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Node.js / Express</span>
+                <span class="skill-perc">85%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">MongoDB / PostgreSQL</span>
+                <span class="skill-perc">80%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill 5 -->
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML / CSS / Tailwind</span>
+                <span class="skill-perc">95%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill 6 -->
+            <div class="skill-bar-item">
+              <div class="skill-info">
+                <span class="skill-name">Docker / AWS / CI-CD</span>
+                <span class="skill-perc">75%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-outline" style="margin-top: 24px;">GET IN TOUCH <i data-lucide="arrow-right"></i></a>
+        </div>
+
+        <!-- Right Side: Top Projects -->
+        <div class="projects-col" id="projects">
+          <div class="projects-header-flex">
+            <div>
+              <div class="section-badge">FEATURED PROJECTS</div>
+              <h2 class="section-heading-md">Top Projects</h2>
+            </div>
+            <a href="https://github.com/gowuthaman644-oss" target="_blank" rel="noopener" class="section-link">VIEW GITHUB <i data-lucide="github"></i></a>
+          </div>
+
+          <div class="featured-projects-grid">
+            <!-- Project 1: Spotify Clone -->
+            <article class="project-card">
+              <div class="project-image-wrapper">
+                <img src="spotify_clone.png" alt="Spotify Clone Project" loading="lazy" />
+              </div>
+              <div class="project-info">
+                <span class="project-num">01</span>
+                <div class="project-meta">
+                  <h3 class="project-title">SPOTIFY CLONE</h3>
+                  <p class="project-category">FULL-STACK MUSIC STREAMING APP</p>
+                  <div class="project-tags">
+                    <span>React</span><span>Node.js</span><span>Web Audio API</span>
+                  </div>
+                </div>
+                <a href="https://github.com/gowuthaman644-oss" target="_blank" class="project-arrow"><i data-lucide="arrow-up-right"></i></a>
+              </div>
+            </article>
+
+            <!-- Project 2: Yoga Class -->
+            <article class="project-card">
+              <div class="project-image-wrapper">
+                <img src="yoga_class.png" alt="Yoga Class Management Project" loading="lazy" />
+              </div>
+              <div class="project-info">
+                <span class="project-num">02</span>
+                <div class="project-meta">
+                  <h3 class="project-title">YOGA CLASS MANAGEMENT</h3>
+                  <p class="project-category">FITNESS & SCHEDULING PLATFORM</p>
+                  <div class="project-tags">
+                    <span>Next.js</span><span>Tailwind</span><span>PostgreSQL</span>
+                  </div>
+                </div>
+                <a href="https://github.com/gowuthaman644-oss" target="_blank" class="project-arrow"><i data-lucide="arrow-up-right"></i></a>
+              </div>
+            </article>
+
+            <!-- Project 3: Task Manager -->
+            <article class="project-card">
+              <div class="project-image-wrapper">
+                <img src="task_manager.png" alt="Task Manager Project" loading="lazy" />
+              </div>
+              <div class="project-info">
+                <span class="project-num">03</span>
+                <div class="project-meta">
+                  <h3 class="project-title">TASK MANAGER</h3>
+                  <p class="project-category">PRODUCTIVITY & KANBAN APP</p>
+                  <div class="project-tags">
+                    <span>React</span><span>Express</span><span>MongoDB</span>
+                  </div>
+                </div>
+                <a href="https://github.com/gowuthaman644-oss" target="_blank" class="project-arrow"><i data-lucide="arrow-up-right"></i></a>
+              </div>
+            </article>
+
+            <!-- Project 4: Interactive Frame Portfolio -->
+            <article class="project-card">
+              <div class="project-image-wrapper">
+                <img src="laptop_mockup.png" alt="Interactive Portfolio Project" loading="lazy" />
+              </div>
+              <div class="project-info">
+                <span class="project-num">04</span>
+                <div class="project-meta">
+                  <h3 class="project-title">INTERACTIVE FRAME PORTFOLIO</h3>
+                  <p class="project-category">SCROLL-DRIVEN ANIMATION WEBSITE</p>
+                  <div class="project-tags">
+                    <span>HTML5 Canvas</span><span>Lenis</span><span>JavaScript</span>
+                  </div>
+                </div>
+                <a href="https://github.com/gowuthaman644-oss" target="_blank" class="project-arrow"><i data-lucide="arrow-up-right"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 5: EDUCATION, WORK PROCESS & CRIMSON QUOTE -->
+    <section class="experience-section">
+      <div class="experience-grid">
+        
+        <!-- Column 1: Education & Certifications -->
+        <div class="exp-col col-skills">
+          <div>
+            <h2 class="col-title">EDUCATION & CERTIFICATIONS</h2>
+            
+            <div class="sub-block">
+              <div class="edu-item">
+                <div class="edu-header">
+                  <span class="edu-name">M.Tech Computer Science</span>
+                  <span class="edu-year">2018 – 2023</span>
+                </div>
+                <p class="edu-institution">Coimbatore, Tamil Nadu</p>
+              </div>
+              <div class="edu-item">
+                <div class="edu-header">
+                  <span class="edu-name">Full-Stack Web Development</span>
+                  <span class="edu-year">2023</span>
+                </div>
+                <p class="edu-institution">Certification & Modern Stack Training</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="sub-block" style="margin-bottom:0;">
+            <h3 class="sub-title">TOOLKIT</h3>
+            <div class="skills-tags">
+              <span class="skill-tag">FIGMA</span>
+              <span class="skill-tag">FRAMER</span>
+              <span class="skill-tag">GIT & GITHUB</span>
+              <span class="skill-tag">WEBFLOW</span>
+              <span class="skill-tag">GSAP</span>
+              <span class="skill-tag">DOCKER</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2: Work Process -->
+        <div class="exp-col col-process">
+          <h2 class="col-title">WORK PROCESS</h2>
+          
+          <div class="process-list">
+            <div class="process-item">
+              <span class="process-num">01</span>
+              <div class="process-icon"><i data-lucide="search"></i></div>
+              <div class="process-text">
+                <h4>DISCOVER</h4>
+                <p>Understanding goals, target audience, and project requirements.</p>
+              </div>
+            </div>
+
+            <div class="process-item">
+              <span class="process-num">02</span>
+              <div class="process-icon"><i data-lucide="lightbulb"></i></div>
+              <div class="process-text">
+                <h4>IDEATE</h4>
+                <p>Planning architecture, wireframing, and creating concept designs.</p>
+              </div>
+            </div>
+
+            <div class="process-item">
+              <span class="process-num">03</span>
+              <div class="process-icon"><i data-lucide="pen-tool"></i></div>
+              <div class="process-text">
+                <h4>DESIGN</h4>
+                <p>Crafting responsive visual UI with focus on smooth user experience.</p>
+              </div>
+            </div>
+
+            <div class="process-item">
+              <span class="process-num">04</span>
+              <div class="process-icon"><i data-lucide="code"></i></div>
+              <div class="process-text">
+                <h4>DEVELOP</h4>
+                <p>Building fast, secure, clean, and high-performing web applications.</p>
+              </div>
+            </div>
+
+            <div class="process-item">
+              <span class="process-num">05</span>
+              <div class="process-icon"><i data-lucide="send"></i></div>
+              <div class="process-text">
+                <h4>DELIVER</h4>
+                <p>Testing, optimizing speed, and launching with perfection.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 3: Crimson Callout Quote Card -->
+        <div class="exp-col col-quote">
+          <div>
+            <span class="quote-mark">“</span>
+            <p class="quote-body">
+              Good design is not just how it looks, but how it works.
+            </p>
+            <div class="quote-signature">Gowuthaman</div>
+          </div>
+          <div class="quote-footer">
+            LET'S CREATE SOMETHING GREAT TOGETHER. <span class="sparkle">✦</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 6: TESTIMONIALS -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="section-center-header">
+        <div class="section-badge">WHAT CLIENTS SAY</div>
+        <h2 class="section-title-center">Testimonials</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div class="quote-icon"><i data-lucide="quote"></i></div>
+          <p class="testimonial-text">
+            "Gowuthaman delivered an exceptional product on time. His code quality, attention to detail, and problem solving skills are outstanding."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JW</div>
+            <div class="author-info">
+              <h4 class="author-name">James Wilson</h4>
+              <p class="author-role">CEO, InnovateX</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="quote-icon"><i data-lucide="quote"></i></div>
+          <p class="testimonial-text">
+            "Professional, responsive and easy to work with. He understood our requirements perfectly and built a great high-converting solution."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SJ</div>
+            <div class="author-info">
+              <h4 class="author-name">Sarah Johnson</h4>
+              <p class="author-role">Product Manager, TechNova</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="quote-icon"><i data-lucide="quote"></i></div>
+          <p class="testimonial-text">
+            "Highly skilled developer with a strong work ethic. Will definitely work with him again on future complex web applications."
+          </p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MB</div>
+            <div class="author-info">
+              <h4 class="author-name">Michael Brown</h4>
+              <p class="author-role">Founder, DevSolutions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: LET'S BUILD SOMETHING AMAZING TOGETHER (CONTACT & FORM) -->
+    <section class="contact-section" id="contact">
+      <div class="section-badge">GET IN TOUCH</div>
+      
+      <div class="contact-grid">
+        <!-- Contact Details -->
+        <div class="contact-info">
+          <h2 class="contact-title">
+            Let's Build Something<br>Amazing Together <span class="sparkle">✦</span>
+          </h2>
+          <p class="contact-desc">
+            Have a project in mind or want to work together? I'd love to hear from you. Send me a message and let me know how I can help.
+          </p>
+
+          <div class="contact-status-pill">
+            <span class="status-dot"></span> AVAILABLE FOR FREELANCE & CONTRACTS
+          </div>
+
+          <div class="contact-links">
+            <a href="mailto:gowuthaman644@gmail.com" class="contact-link-item">
+              <span class="link-icon"><i data-lucide="mail"></i></span>
+              <span class="link-text">gowuthaman644@gmail.com</span>
+            </a>
+            <a href="tel:+918667433313" class="contact-link-item">
+              <span class="link-icon"><i data-lucide="phone"></i></span>
+              <span class="link-text">+91 8667433313</span>
+            </a>
+            <a href="https://github.com/gowuthaman644-oss" target="_blank" rel="noopener" class="contact-link-item">
+              <span class="link-icon"><i data-lucide="github"></i></span>
+              <span class="link-text">github.com/gowuthaman644-oss</span>
+            </a>
+            <div class="contact-link-item">
+              <span class="link-icon"><i data-lucide="map-pin"></i></span>
+              <span class="link-text">Coimbatore, Tamil Nadu, India</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Interactive Form -->
+        <div class="contact-form-card">
+          <form id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" name="name" id="form-name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label>Your Email</label>
+                <input type="email" name="email" id="form-email" placeholder="john@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" name="subject" id="form-subject" placeholder="Project Inquiry / Collaboration" required />
+            </div>
+
+            <div class="form-group">
+              <label>Your Message</label>
+              <textarea name="message" id="form-message" rows="5" placeholder="Tell me about your project, timeline, and goals..." required></textarea>
+            </div>
+
+            <button type="submit" id="submit-btn" class="btn btn-primary btn-full">
+              SEND MESSAGE <i data-lucide="send"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-flex">
+        <p>© 2026 GOWUTHAMAN. ALL RIGHTS RESERVED.</p>
+        <a href="#hero" class="back-to-top">BACK TO TOP <i data-lucide="arrow-up"></i></a>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js?v=15"></script>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+</body>
+</html>
